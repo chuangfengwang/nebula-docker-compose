@@ -241,7 +241,7 @@ services:
       retries: 3
       start_period: 20s
     ports:
-      - "9669:9669"
+      - "29669:9669"
       - 19669
       - 19670
     volumes:
@@ -323,9 +323,8 @@ services:
     restart: on-failure
     cap_add:
       - SYS_PTRACE
-  
   console:
-    image: vesoft/nebula-console:nightly
+    image: vesoft/nebula-console:v3.5
     entrypoint: ""
     command: 
       - sh
@@ -344,6 +343,13 @@ services:
       - graphd
     networks:
       - nebula-net
-
+  web:
+    image: vesoft/nebula-graph-studio:v3.7.0
+    environment:
+      USER: root
+    ports:
+      - 7001:7001
+    networks:
+      - nebula-net
 networks:
   nebula-net:
