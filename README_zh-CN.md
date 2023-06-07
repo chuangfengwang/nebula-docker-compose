@@ -37,3 +37,39 @@
 | [`v2.5.0`](https://github.com/vesoft-inc/nebula-docker-compose/tree/v2.5.0) | `v2.5.0` of the nebula-graph repository                                               | v.2.5.0                                    | [Docker Compose部署Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/v2.5.0/README.md)                 |
 | [`v2.0.0`](https://github.com/vesoft-inc/nebula-docker-compose/tree/v2.0.0)                       | `v2.0.0` of the nebula-graph repository                                               | v.2.0.0-GA                                 | [Docker Compose部署Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/v2.0.0/README.md)                 |
 | [`v1.0`](https://github.com/vesoft-inc/nebula-docker-compose/tree/v1.0)                           | `master` of the [nebula](https://github.com/vesoft-inc/nebula) repository             | The latest development <br>version of v1.x | [Docker Compose部署Nebula Graph](https://github.com/vesoft-inc/nebula-docker-compose/blob/v1.0/README.md)                   |
+
+nebula-graph-studio 与 nebula 版本对应关系
+
+[nebula-studio 代码地址](https://github.com/vesoft-inc/nebula-studio)
+
+| NebulaGraph version | NebulaGraph Studio tag | 
+|----------------------|---------------------------|
+| 1.x                  | v1.2.7                    |
+| 2.0.x                | v2.2.x                    |
+| 2.5.x                | v3.0.x                    |
+| 2.6.x                | v3.1.x                    |
+| 3.0.x                | v3.2.x                    |
+| 3.1.x                | v3.3.x                    |
+| 3.0.0 ～ 3.2.0       | v3.4.x                    |
+| 3.0.0 ～ 3.3.0       | v3.5.x                    |
+| 3.0.0 ～ 3.4.0       | v3.6.x                    |
+| 3.0.0 ～ 3.5.0       | v3.7.x                    |
+
+
+nebula-console 与 nebula 版本对应关系
+
+[nebula-console 代码地址](https://github.com/vesoft-inc/nebula-console)
+
+|                       Console version                                  | NebulaGraph Version |
+| :--------------------------------------------------------------------: | :-----------------: |
+| **[v2.0.1](https://github.com/vesoft-inc/nebula-console/tree/v2.0.1)** |        2.0.x        |
+| **[v2.5.0](https://github.com/vesoft-inc/nebula-console/tree/v2.5.0)** |        2.5.x        |
+| **[v2.6.0](https://github.com/vesoft-inc/nebula-console/tree/v2.6.0)** |        2.6.x        |
+| **[v3.0.0](https://github.com/vesoft-inc/nebula-console/tree/v3.0.0)** |         3.x         |
+| **[v3.1.x](https://github.com/vesoft-inc/nebula-console/tree/v3.1.0)** |         3.x         |
+| **[v3.2.x](https://github.com/vesoft-inc/nebula-console/tree/v3.2.0)** |         3.x         |
+| **[v3.3.x](https://github.com/vesoft-inc/nebula-console/tree/v3.3.0)** |         3.x         |
+| **[v3.4.x](https://github.com/vesoft-inc/nebula-console/tree/v3.4.0)** |         3.x         |
+| **[v3.5.x](https://github.com/vesoft-inc/nebula-console/tree/v3.4.0)** |         3.x         |
+| **[master](https://github.com/vesoft-inc/nebula-console/tree/master)** |       nightly       |
+
